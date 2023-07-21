@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+ 
+body{
+    /* background-image: url("pexels-designecologist-1779487.jpg"); */
+    background-color:#1a1a1a ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+/* Compatable for mobile */
+@media (max-width: 500px) {
+  img{
+  height: 290px;
+  width: 60%;
+  border-radius: 50%;
+  margin-left: 5rem;
+  margin-top: 10rem;
+}
+
+.home h2{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.home h4{
+  color: #EA2B1F;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.home p{
+  color:#eb6e4c;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  padding-inline: 27px;
+  padding-top: 20px;
+  line-height: 24px;
+}
+
+ .btn{
+  margin-left: 8rem;
+  margin-top: 2rem;
+  background-color: #F9DF74;
+  border: none;
+  width: 130px;
+  height: 2.5rem;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.icons {
+  position: fixed;
+  bottom: 0;
+  display:flex;
+  justify-content: space-around;
+  background: #F9EDCC;
+  padding: 1rem;
+  width: 100%;
+  gap: 2px;
+}
+
+.icons a {
+  display: inline-block;
+  padding-inline: 30px;
+  color: crimson;
+  font-size: 25px;
+}
+
+.icons a:hover{
+  transform: scale(1.2);
+  padding-inline: 30px;
+  padding-block: 5px;
+}
+
+#about h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aqua;
+  font-size: 55px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#about span{
+  color: crimson;
+}
+
+#about h4{
+  color: white;
+  font-size: 39px;
+  padding-left: 20px;
+  padding-top: 27px;
+}
+
+#about p{
+  color: white;
+  padding-left: 20px;
+  font-size: 18px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 35px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  padding-inline: 2.5rem;
+  padding-top: 3rem;
+}
+
+.container .box{
+  color: white;
+  display: inline-block;
+  padding: 3.5rem;
+  background: #1a1a1a;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.container .box h3{
+  font-size: 3rem;
+  color: crimson;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .box p{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+}
+
+#my-skills h2{
+  color: aqua;
+  font-size: 55px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+}
+#my-skills ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding-inline:4rem;
+  padding-top: 3rem;
+}
+
+#my-skills ul li{
+  background: #1a1a1a;
+  padding: 2.5rem;
+  margin-bottom:3rem ;
+}
+
+#my-skills img{
+  width: 4rem;
+  height: 4rem;
+}
+#my-skills ul li h6{
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 40px;
+  color: red;
+}
+
+#contact h4{
+  color: white;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 25px;
+}
+
+#contact p{
+  color: white;
+  padding-inline: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+.details a{
+  color: aqua;
+  display: flex;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.details h6{
+  padding-left: 2rem;
+  padding-top: 5px;
+  font-size: 25px;
+  
+}
+
+.details .sp{
+  color: crimson;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 4rem;
+  padding-left: 6.5rem;
+}
+
+.message{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  padding-block: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 5rem;
+  gap: 1rem; 
+}
+
+form input{
+  background-color:transparent;
+  background: #1a1a1a;
+  color: crimson;
+  height: 2rem;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+form textarea{
+  background-color: transparent;
+  background: #1a1a1a;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+form button{
+  width: 9rem;
+  height: 2rem;
+  margin-left: 11rem;
+  border-radius: 20px;
+  background: crimson;
+  border: none;
+}
+
+/* Add CSS styles for the loading state */
+.btn.loading::after {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  border: 2px solid transparent;
+  border-top: 2px solid #fff;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+/* Keyframes for the loading spinner animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+form button:hover{
+  cursor: pointer;
+  background: aqua;
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social-media a{
+  background: #1a1a1a;
+  padding: 1rem;
+  font-size: 20px;
+  border-radius: 50%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.social-media a:hover{
+  transform: scale(1.2);
+}
+.social-media a:nth-child(1){
+  background-color: #1877F2;
+}
+
+.social-media a:nth-child(2){
+  background-image: linear-gradient( #833AB4, #FD1D1D);
+}
+
+.social-media a:nth-child(3){
+  background-image: linear-gradient( #1DA1F2, #FFFFFF);
+  color: blue;
+}
+
+.social-media a:nth-child(4){
+  color: white;
+  background-color: grey;
+}
+
+#contact #copy{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+}
+
+/* Compatable for Desktops */
+
+@media (min-width: 1024px) {
+  img {
+    float: left;
+    height: 420px;
+    width: 40%;
+    border-radius: 50%;
+    padding-left: 4rem;
+    padding-top: 8rem;
+  }
+
+  .home h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15rem;
+  }
+
+  .home h4 {
+    color: aqua;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .home p {
+    color: rgb(176, 90, 90);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-inline: 27px;
+    padding-top: 20px;
+    line-height: 24px;
+  }
+
+  .home .btn {
+    background-color: aqua;
+    padding: 10px;
+    width: 130px;
+    font-size: 17px;
+    border-radius: 20px;
+    margin-inline: 13rem;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 230px;
+  }
+
+  .icons a {
+    display: inline-block;
+    color: aqua;
+    font-size: 25px;
+    
+  }
+
+  .icons a:hover {
+    background-color: crimson;
+    padding-inline: 25px;
+    padding-block: 8px;
+  }
+}
